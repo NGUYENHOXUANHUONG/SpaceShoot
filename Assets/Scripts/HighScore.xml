@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<Leaderboard xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <list>
+    <GameData>
+      <Score>149</Score>
+    </GameData>
+    <GameData>
+      <Score>116</Score>
+    </GameData>
+    <GameData>
+      <Score>92</Score>
+    </GameData>
+    <GameData>
+      <Score>74</Score>
+    </GameData>
+    <GameData>
+      <Score>62</Score>
+    </GameData>
+    <GameData>
+      <Score>55</Score>
+    </GameData>
+    <GameData>
+      <Score>47</Score>
+    </GameData>
+    <GameData>
+      <Score>4</Score>
+    </GameData>
+    <GameData>
+      <Score>0</Score>
+    </GameData>
+  </list>
+</Leaderboard>
