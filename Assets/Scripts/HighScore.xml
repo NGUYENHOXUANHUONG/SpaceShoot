@@ -28,5 +28,8 @@
     <GameData>
       <Score>0</Score>
     </GameData>
+    <GameData>
+      <Score>10</Score>
+    </GameData>
   </list>
 </Leaderboard>
