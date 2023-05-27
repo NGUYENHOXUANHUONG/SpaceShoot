@@ -56,29 +56,36 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\PlayerShooting.cs" />
-    <Compile Include="Assets\Scripts\BulletBossMoving.cs" />
-    <Compile Include="Assets\Scripts\Bonus.cs" />
-    <Compile Include="Assets\Scripts\Projectile.cs" />
-    <Compile Include="Assets\Scripts\Wave.cs" />
-    <Compile Include="Assets\Scripts\LevelController.cs" />
-    <Compile Include="Assets\Scripts\BulletPool.cs" />
-    <Compile Include="Assets\Scripts\UIManager.cs" />
-    <Compile Include="Assets\Scripts\FollowThePath.cs" />
-    <Compile Include="Assets\Scripts\VisualEffect.cs" />
-    <Compile Include="Assets\Scripts\GameManager.cs" />
-    <Compile Include="Assets\Scripts\Menu.cs" />
-    <Compile Include="Assets\Scripts\BackGround.cs" />
-    <Compile Include="Assets\Scripts\XMLDataManager.cs" />
-    <Compile Include="Assets\Scripts\DirectMoving.cs" />
-    <Compile Include="Assets\Scripts\Player.cs" />
-    <Compile Include="Assets\Scripts\ScoreItem.cs" />
-    <Compile Include="Assets\Scripts\Boss1.cs" />
-    <Compile Include="Assets\Scripts\Boundary.cs" />
-    <Compile Include="Assets\Scripts\Enemy.cs" />
+    <Compile Include="Assets\Game\Scripts\Pro\ShootManager.cs" />
+    <Compile Include="Assets\Game\Scripts\Pro\Bullet\Area.cs" />
+    <Compile Include="Assets\Game\Scripts\Pro\BulletMove.cs" />
+    <Compile Include="Assets\Game\Scripts\PlayerShooting.cs" />
+    <Compile Include="Assets\Game\Scripts\BulletBossMoving.cs" />
+    <Compile Include="Assets\Game\Scripts\Bonus.cs" />
+    <Compile Include="Assets\Game\Scripts\Pro\ObjectPool.cs" />
+    <Compile Include="Assets\Game\Scripts\Pro\Bullet\GroupPoint.cs" />
+    <Compile Include="Assets\Game\Scripts\Projectile.cs" />
+    <Compile Include="Assets\Game\Scripts\Wave.cs" />
+    <Compile Include="Assets\Game\Scripts\LevelController.cs" />
+    <Compile Include="Assets\Game\Scripts\BulletPool.cs" />
+    <Compile Include="Assets\Game\Scripts\UIManager.cs" />
+    <Compile Include="Assets\Game\Scripts\Pro\Bullet\StartPoint.cs" />
+    <Compile Include="Assets\Game\Scripts\FollowThePath.cs" />
+    <Compile Include="Assets\Game\Scripts\VisualEffect.cs" />
+    <Compile Include="Assets\Game\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Game\Scripts\Menu.cs" />
+    <Compile Include="Assets\Game\Scripts\BackGround.cs" />
+    <Compile Include="Assets\Game\Scripts\XMLDataManager.cs" />
+    <Compile Include="Assets\Game\Scripts\DirectMoving.cs" />
+    <Compile Include="Assets\Game\Scripts\Player.cs" />
+    <Compile Include="Assets\Game\Scripts\Pro\Shoot.cs" />
+    <Compile Include="Assets\Game\Scripts\ScoreItem.cs" />
+    <Compile Include="Assets\Game\Scripts\Boss1.cs" />
+    <Compile Include="Assets\Game\Scripts\Boundary.cs" />
+    <Compile Include="Assets\Game\Scripts\Enemy.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Scripts\HighScore.xml" />
+    <None Include="Assets\Game\Scripts\HighScore.xml" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
